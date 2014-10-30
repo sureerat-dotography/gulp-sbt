@@ -1,8 +1,8 @@
 sbtPlugin := true
 
-name := "grunt-sbt"
+name := "gulp-sbt"
 
-organization := "org.rbayer"
+organization := "org.roberto"
 
 version := "1.0"
 
@@ -16,7 +16,7 @@ isSnapshot := false
 
 licenses := Seq("MIT" -> url("http://www.opensource.org/licenses/mit-license.php"))
 
-homepage := Some(url("https://github.com/rossbayer/grunt-sbt"))
+homepage := Some(url("https://github.com/RobertoUa/gulp-sbt"))
 
 publishMavenStyle := true
 
@@ -35,13 +35,13 @@ pomIncludeRepository := { _ => false }
 
 pomExtra := (
   <scm>
-    <url>git@github.com:rossbayer/grunt-sbt.git</url>
-    <connection>scm:git:git@github.com:rossbayer/grunt-sbt.git</connection>
+    <url>git@github.com:RobertoUa/gulp-sbt.git</url>
+    <connection>scm:git:git@github.com:RobertoUa/gulp-sbt.git</connection>
   </scm>
   <developers>
     <developer>
-      <id>rossbayer</id>
-      <name>Ross Bayer</name>
+      <id>RobertoUa</id>
+      <name>Volodymyr Barna</name>
     </developer>
   </developers>)
 
