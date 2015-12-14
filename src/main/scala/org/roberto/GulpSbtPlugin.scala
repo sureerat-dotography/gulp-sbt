@@ -2,7 +2,7 @@
 // Copyright (c) 2014 Ross Bayer
 //------------------------------------------------------------------------------
 
-package org.rbayer
+package org.roberto
 
 import sbt._
 import Keys._
